@@ -1,0 +1,10 @@
+{
+  "$schema": "https://schemas.reqnroll.net/reqnroll-config-latest.json",
+  "runtime": {
+    "missingOrPendingStepsOutcome": "Error"
+  },
+  "formatters": {
+    "html": { "outputFilePath": "reports/reqnroll_report.html" },
+    "message": { "outputFilePath": "reports/reqnroll_report.ndjson" }
+  }
+}
